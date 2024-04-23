@@ -7,4 +7,6 @@ export default defineConfig({
     service: squooshImageService(),
   },
   integrations: [tailwind()],
+  site: 'https://alejandroschwartz.github.io',
+  base: 'elio-portfolio',
 });
